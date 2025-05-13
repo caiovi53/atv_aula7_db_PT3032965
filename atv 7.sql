@@ -42,4 +42,5 @@ RETURN
     JOIN course c ON sec.course_id = c.course_id
     WHERE i.name = @instructor_name
 );
+SELECT * FROM dbo.return_instructor_location('Gustafsson');
 
